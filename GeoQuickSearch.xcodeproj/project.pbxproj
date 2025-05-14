@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E366D3EC2DD509E100028A15 /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = E366D3EB2DD509E100028A15 /* HotKey */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E366D3CB2DD508D900028A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E366D3B42DD508D700028A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E366D3BB2DD508D700028A15;
+			remoteInfo = GeoQuickSearch;
+		};
+		E366D3D52DD508D900028A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E366D3B42DD508D700028A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E366D3BB2DD508D700028A15;
+			remoteInfo = GeoQuickSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E366D3BC2DD508D700028A15 /* GeoQuickSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoQuickSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E366D3CA2DD508D900028A15 /* GeoQuickSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoQuickSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E366D3D42DD508D900028A15 /* GeoQuickSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoQuickSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E366D3BE2DD508D700028A15 /* GeoQuickSearch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GeoQuickSearch;
+			sourceTree = "<group>";
+		};
+		E366D3CD2DD508D900028A15 /* GeoQuickSearchTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GeoQuickSearchTests;
+			sourceTree = "<group>";
+		};
+		E366D3D72DD508D900028A15 /* GeoQuickSearchUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GeoQuickSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E366D3B92DD508D700028A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E366D3EC2DD509E100028A15 /* HotKey in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E366D3C72DD508D900028A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E366D3D12DD508D900028A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E366D3B32DD508D700028A15 = {
+			isa = PBXGroup;
+			children = (
+				E366D3BE2DD508D700028A15 /* GeoQuickSearch */,
+				E366D3CD2DD508D900028A15 /* GeoQuickSearchTests */,
+				E366D3D72DD508D900028A15 /* GeoQuickSearchUITests */,
+				E366D3BD2DD508D700028A15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E366D3BD2DD508D700028A15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E366D3BC2DD508D700028A15 /* GeoQuickSearch.app */,
+				E366D3CA2DD508D900028A15 /* GeoQuickSearchTests.xctest */,
+				E366D3D42DD508D900028A15 /* GeoQuickSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E366D3BB2DD508D700028A15 /* GeoQuickSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E366D3DE2DD508D900028A15 /* Build configuration list for PBXNativeTarget "GeoQuickSearch" */;
+			buildPhases = (
+				E366D3B82DD508D700028A15 /* Sources */,
+				E366D3B92DD508D700028A15 /* Frameworks */,
+				E366D3BA2DD508D700028A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E366D3BE2DD508D700028A15 /* GeoQuickSearch */,
+			);
+			name = GeoQuickSearch;
+			packageProductDependencies = (
+				E366D3EB2DD509E100028A15 /* HotKey */,
+			);
+			productName = GeoQuickSearch;
+			productReference = E366D3BC2DD508D700028A15 /* GeoQuickSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E366D3C92DD508D900028A15 /* GeoQuickSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E366D3E12DD508D900028A15 /* Build configuration list for PBXNativeTarget "GeoQuickSearchTests" */;
+			buildPhases = (
+				E366D3C62DD508D900028A15 /* Sources */,
+				E366D3C72DD508D900028A15 /* Frameworks */,
+				E366D3C82DD508D900028A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E366D3CC2DD508D900028A15 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E366D3CD2DD508D900028A15 /* GeoQuickSearchTests */,
+			);
+			name = GeoQuickSearchTests;
+			packageProductDependencies = (
+			);
+			productName = GeoQuickSearchTests;
+			productReference = E366D3CA2DD508D900028A15 /* GeoQuickSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E366D3D32DD508D900028A15 /* GeoQuickSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E366D3E42DD508D900028A15 /* Build configuration list for PBXNativeTarget "GeoQuickSearchUITests" */;
+			buildPhases = (
+				E366D3D02DD508D900028A15 /* Sources */,
+				E366D3D12DD508D900028A15 /* Frameworks */,
+				E366D3D22DD508D900028A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E366D3D62DD508D900028A15 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E366D3D72DD508D900028A15 /* GeoQuickSearchUITests */,
+			);
+			name = GeoQuickSearchUITests;
+			packageProductDependencies = (
+			);
+			productName = GeoQuickSearchUITests;
+			productReference = E366D3D42DD508D900028A15 /* GeoQuickSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E366D3B42DD508D700028A15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					E366D3BB2DD508D700028A15 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					E366D3C92DD508D900028A15 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E366D3BB2DD508D700028A15;
+					};
+					E366D3D32DD508D900028A15 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E366D3BB2DD508D700028A15;
+					};
+				};
+			};
+			buildConfigurationList = E366D3B72DD508D700028A15 /* Build configuration list for PBXProject "GeoQuickSearch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E366D3B32DD508D700028A15;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E366D3EA2DD509E100028A15 /* XCRemoteSwiftPackageReference "HotKey" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E366D3BD2DD508D700028A15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E366D3BB2DD508D700028A15 /* GeoQuickSearch */,
+				E366D3C92DD508D900028A15 /* GeoQuickSearchTests */,
+				E366D3D32DD508D900028A15 /* GeoQuickSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E366D3BA2DD508D700028A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E366D3C82DD508D900028A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E366D3D22DD508D900028A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E366D3B82DD508D700028A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E366D3C62DD508D900028A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E366D3D02DD508D900028A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E366D3CC2DD508D900028A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E366D3BB2DD508D700028A15 /* GeoQuickSearch */;
+			targetProxy = E366D3CB2DD508D900028A15 /* PBXContainerItemProxy */;
+		};
+		E366D3D62DD508D900028A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E366D3BB2DD508D700028A15 /* GeoQuickSearch */;
+			targetProxy = E366D3D52DD508D900028A15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E366D3DC2DD508D900028A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E366D3DD2DD508D900028A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E366D3DF2DD508D900028A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeoQuickSearch/GeoQuickSearch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MDman.GeoQuickSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E366D3E02DD508D900028A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeoQuickSearch/GeoQuickSearch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MDman.GeoQuickSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E366D3E22DD508D900028A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MDman.GeoQuickSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoQuickSearch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoQuickSearch";
+			};
+			name = Debug;
+		};
+		E366D3E32DD508D900028A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MDman.GeoQuickSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoQuickSearch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoQuickSearch";
+			};
+			name = Release;
+		};
+		E366D3E52DD508D900028A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MDman.GeoQuickSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GeoQuickSearch;
+			};
+			name = Debug;
+		};
+		E366D3E62DD508D900028A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MDman.GeoQuickSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GeoQuickSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E366D3B72DD508D700028A15 /* Build configuration list for PBXProject "GeoQuickSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E366D3DC2DD508D900028A15 /* Debug */,
+				E366D3DD2DD508D900028A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E366D3DE2DD508D900028A15 /* Build configuration list for PBXNativeTarget "GeoQuickSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E366D3DF2DD508D900028A15 /* Debug */,
+				E366D3E02DD508D900028A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E366D3E12DD508D900028A15 /* Build configuration list for PBXNativeTarget "GeoQuickSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E366D3E22DD508D900028A15 /* Debug */,
+				E366D3E32DD508D900028A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E366D3E42DD508D900028A15 /* Build configuration list for PBXNativeTarget "GeoQuickSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E366D3E52DD508D900028A15 /* Debug */,
+				E366D3E62DD508D900028A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E366D3EA2DD509E100028A15 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E366D3EB2DD509E100028A15 /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E366D3EA2DD509E100028A15 /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E366D3B42DD508D700028A15 /* Project object */;
+}
